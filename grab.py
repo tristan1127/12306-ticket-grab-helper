@@ -221,7 +221,7 @@ try:
                     continue
     
     # 12. 点击确认提交
-    time.sleep(0.5)
+    time.sleep(2)
     #input("\n🤚 return to continue...")
     print("\n✅ 正在提交最终确认...")
     WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.ID, "qr_submit_id"))).click()
