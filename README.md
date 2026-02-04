@@ -61,7 +61,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 ### 4. 运行脚本
 ```bash
-python 12306_ticket_grabber.py
+python3 grab.py
 ```
 
 ## 📖 使用说明
